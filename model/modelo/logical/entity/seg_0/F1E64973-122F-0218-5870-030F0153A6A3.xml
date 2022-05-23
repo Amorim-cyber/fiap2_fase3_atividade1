@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F1E64973-122F-0218-5870-030F0153A6A3" name="tb_registro_servico">
+<createdBy>lucca</createdBy>
+<createdTime>2022-02-09 00:51:42 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_registro" id="850B6788-EEC7-15EE-A197-4EBA409F5DB0">
+<createdBy>lucca</createdBy>
+<createdTime>2022-02-09 23:10:58 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="F762FC57-244E-3216-D797-B64321753C41">
+<createdBy>lucca</createdBy>
+<createdTime>2022-02-15 12:38:38 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="CF16D518-49EC-25A2-D69A-3A0F434473BB">
+<createdBy>lucca</createdBy>
+<createdTime>2022-02-09 00:54:07 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="EB605AE3-D9DF-5EC1-DAB3-00E656458538">
+<createdBy>lucca</createdBy>
+<createdTime>2022-02-09 00:54:19 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_prestador" id="213B8417-9CC5-55EF-32B9-0E1FB3E07324">
+<createdBy>lucca</createdBy>
+<createdTime>2022-02-09 00:54:44 UTC</createdTime>
+<generatorID>21846791-515C-1CD9-4433-B8945295685E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<referedAttribute>10C543CF-F83C-BF21-14E8-5B7F7FEE16B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_morador" id="CDF29748-BE1E-0A5D-DC62-08A437225AEB">
+<createdBy>lucca</createdBy>
+<createdTime>2022-02-09 00:55:19 UTC</createdTime>
+<generatorID>B42B5209-2726-72F8-F130-E84628FD6971</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<referedAttribute>418DBA8A-9DC3-EDDE-84D2-B71C76A58C71</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="12C91BBB-2E9C-C0C1-27FD-B7AA010728DD">
+<createdBy>lucca</createdBy>
+<createdTime>2022-03-30 20:11:42 UTC</createdTime>
+<generatorID>B42B5209-2726-72F8-F130-E84628FD6971</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<referedAttribute>713F5CC3-07D1-FD0B-5F0E-D5BF36900DC5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario1" id="4873EE76-6BE7-37AA-FA05-7765995AA207">
+<createdBy>lucca</createdBy>
+<createdTime>2022-03-30 20:12:00 UTC</createdTime>
+<generatorID>21846791-515C-1CD9-4433-B8945295685E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<referedAttribute>3DF1EC00-0A81-6845-18E8-4F0A1BC2B7C1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07E08FA8-22B1-59AF-8436-265D5C1EFFF2" name="tb_registro_servico PK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-02-09 23:11:04 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>850B6788-EEC7-15EE-A197-4EBA409F5DB0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
